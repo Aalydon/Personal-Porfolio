@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matti LF - Personal Portfolio</title>
+
+    <link rel="shortcut icon" href="./assets/images/favicon.ico?v=2" type="image/x-icon">
+
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--
+      - #MAIN
+    -->
+
+    <main>
+
+        <!--
+          - #SIDEBAR
+        -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="./assets/images/my-avatar.png" alt="Matti LF" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Matti LF">Matti LF</h1>
+                    <p class="title">
+                        Software Game Developer
+                    </p>
+                    <ul>
+                        <li class="list">
+                            <div class="title">
+                                Content Creator
+                            </div>
+                        </li>
+                    </ul>
+
+
+                    <button class="info_more-btn" data-sidebar-btn>
+                        <span>Show Contacts</span>
+
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:aalydon.jobs@gmail.com" class="contact-link">aalydon.jobs(at)gmail.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Victoria, British Columbia, Canada</address>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">LinkedIn</p>
+
+                            <a href="https://www.linkedin.com/in/matti-lf/" class="contact-link" target=”_blank”>Matti LF</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="https://www.youtube.com/@Aalydon" class="social-link" target=”_blank”>
+                            <ion-icon name="logo-youtube"></ion-icon>
+
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.twitch.tv/aalydon" class="social-link" target=”_blank”>
+                            <ion-icon name="logo-twitch"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/aalydon.insta/" class="social-link" target=”_blank”>
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <!--
+                      - twitch, youtube, insta
+                    -->
+
+                </ul>
+
+            </div>
+
+        </aside>
+
+
+
+
+
+        <!--
+          - #main-content
+        -->
+
+        <div class="main-content">
+
+            <!--
+              - #NAVBAR
+            -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <button class="navbar-link  active" data-nav-link>About</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Portfolio</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+
+
+
+            <!--
+              - #ABOUT
+            -->
+
+            <article class="about  active" data-page="about">
+
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        I am a <b>Software Game Developer</b> with hands-on experience making simulators for 
+                        Navy personnel on contracts with the Canadian Department of Defence. These simulators and 
+                        Applications ranged from 
+                        <a href="https://irisdynamics.com/products/raven" target="_blank" class="about-text-link">motion-platform</a>
+                        gyroscopic simulators in VR, to desktop click-and-play task-trainers 
+                        for teaching Navy students their curriculum.
+                    </p>
+
+                    <p>
+                        I graduated with a <b>B.Sc. in Computer Science (Software Engineering)</b> at the
+                        <a href="https://www.uvic.ca/" target="_blank" class="about-text-link">University of Victoria</a>
+                        in 2019, and have been working Full-Time since Feb of 2020.
+                    </p>
+
+                    <p>
+                        My hobbies center around gaming and other media such as
+                        <a href="https://www.youtube.com/@Aalydon" target="_blank" class="about-text-link">live-streaming</a>.
+                        My pursuit is to work Full-Time in a game studio where I am surrounded my game
+                        developers that share my passion for games, and to <b>collaborate on making a
+                        game that we would feel proud playing together.</b>
+
+                    </p>
+                </section>
+
+
+                <!--
+      - service
+    -->
+
+                <section class="service">
+
+                    <h3 class="h3 service-title">What I'm Doing</h3>
+
+                    <ul class="service-list">
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-dev.svg
+                " alt="Development icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Game  Development</h4>
+
+                                <p class="service-item-text">
+                                    Familiarity creating VR and simulation experiences for both Unity and Enreal Engine 
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-stream.svg" alt="Streaming icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Streaming and Content Creation</h4>
+
+                                <p class="service-item-text">
+                                    Playing Games and providing entertainment to a small community
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-travel.svg" alt="travel icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Travel</h4>
+
+                                <p class="service-item-text">
+                                    Recently returned from a 3 month trip to Japan
+                                </p>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+
+                <!--
+      - testimonials
+    -->
+                <!---
+                <section class="testimonials">
+
+                    <h3 class="h3 testimonials-title">Testimonials</h3>
+
+                    <ul class="testimonials-list has-scrollbar">
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-1.png" alt="David" width="60" data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>David</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        --
+                                        text
+                                        <!--
+                              - testimonials from David
+                            --
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-2.png" alt="Karina" width="60" data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Karina</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        <!--
+                              - testimonials from Karina
+                            --
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </section>
+        -->
+
+                <!--
+      - testimonials modal
+    -->
+                
+                <div class="modal-container" data-modal-container>
+
+                    <div class="overlay" data-overlay></div>
+
+                    <section class="testimonials-modal">
+
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="./assets/images/avatar-1.png" alt="David" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="./assets/images/icon-quote.svg" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+
+                            <h4 class="h3 modal-title" data-modal-title>David</h4>
+
+                            <time datetime="2024">2024</time>
+
+                            <div data-modal-text>
+                                <p>
+                                   
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+                
+
+                <!--
+      - clients
+    -->
+
+                <section class="clients">
+
+                    <h3 class="h3 clients-title">Clients & Partners</h3>
+
+                    <ul class="clients-list has-scrollbar">
+
+                        <li class="clients-item">
+                            <a href="https://www.canada.ca/en/department-national-defence.html" target="_blank">
+                                <img src="./assets/images/can.svg" alt="Canadain Department of Defence">
+                                <!--- Canadain Department of Defence LOGO-->
+                            </a>
+                        </li>
+
+
+                        <li class="clients-item">
+                            <a href="https://irisdynamics.com/" target="_blank">
+                                <img src="./assets/images/iris.svg" alt="IrisDynamics">
+                                <!--- IrisDynamics Logo-->
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+
+
+
+            <!--
+              - #RESUME
+            -->
+
+            <article class="resume" data-page="resume">
+
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Software Game Developer - 
+                            <a href ="https://racerocks3d.ca/" target="_blank" class="timeline-item-title-link">RaceRocks3D</a></h4>
+
+                            <span>2020 — 2024 / Full-Time</span>
+
+                            <p class="timeline-text">
+                                Helped create and design several applications and simulators for clientelle such as the Canadian Department of Defence, 
+                                ranging from VR motion platofrm simulators for boat and helicopter trainers, to click-and-play task-trainers for teaching 
+                                Navy cirriculum to students.
+                            </p>
+
+                        </li>                     
+
+                    </ol>
+
+                </section>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">
+                                B.Sc. Coputer Science (Software Engineering) -
+                                <a href="https://www.uvic.ca/" target="_blank" class="timeline-item-title-link">University of Victoria</a>
+                            </h4>
+
+                            <span>2013 — 2019</span>
+
+                            <p class="timeline-text">
+                                My last year saw me create 2 VR experiences for class projects as I focused on exploring game development.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Mount Douglas Secondary School</h4>
+
+                            <span>2009 — 2013</span>
+
+                            <p class="timeline-text">
+                                Admitted and graduated through the Mound Douglas Challenge Program.
+                            </p>
+
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                <section class="skill">
+
+                    <h3 class="h3 skills-title">My skills</h3>
+
+                    <ul class="skills-list content-card">
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Game Design</h5>
+                                <data value="80">75%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 75%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Documentation</h5>
+                                <data value="85">85%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 85%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Front-end Development</h5>
+                                <data value="90">80%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Back-end Development</h5>
+                                <data value="50">50%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 50%;"></div>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+
+            <!--
+              - #PORTFOLIO
+            -->
+
+            <article class="portfolio" data-page="portfolio">
+
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+
+                    <ul class="filter-list">
+
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>All</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Game Development</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Applications</button>
+                        </li>
+
+                    </ul>
+
+                    <div class="filter-select-box">
+
+                        <button class="filter-select" data-select>
+
+                            <div class="select-value" data-selecct-value>Select category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+
+                        </button>
+
+                        <ul class="select-list">
+
+                            <li class="select-item">
+                                <button data-select-item>All</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Game Development</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Applications</button>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <ul class="project-list">
+
+                        <li class="project-item active" data-filter-item data-category="game development">
+                            <a href="https://irisdynamics.com/products/raven" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/rhib.jpg" alt="rhib" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">VR RHIB Simulator</h3>
+
+                                <p class="project-category">Game Development</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="game development">
+                            <a href="https://www.linkedin.com/posts/matti-lf_meet-our-team-matti-software-developer-activity-6891447242448879616-s1HQ/?utm_source=share&utm_medium=member_desktop" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/heli.jpg" alt="heil" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">VR Helicopter Simulator</h3>
+
+                                <p class="project-category">Game Development</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="game development">
+                            <a href="https://github.com/glenmcmanus/OrcaJam2019" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/falling.jpg" alt="falling" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">48hr Game Jam participant</h3>
+
+                                <p class="project-category">Game Development</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/pg&d.jpg" alt="pg&d" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">PG&D Training Simulator</h3>
+
+                                <p class="project-category">Applications</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/personnel.jpg" alt="personnel" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Navy Ship personnel simulator</h3>
+
+                                <p class="project-category">Applications</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/rqs3.jpg" alt="rqs3" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">RQS3 SCORM Compliant Training</h3>
+
+                                <p class="project-category">Applications</p>
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+                <section class="tools">
+
+                    <header>
+                        <h2 class="h3 service-title">Languages, Tools, and Engines</h2>
+                    </header>
+
+                    <ul class="tools-list">
+                        <li class="tools-item">
+                            <ul>
+                                <li>
+                                    <img src="./assets/images/unity.png" name="logo-unity" class="tools-item-icon" alt="Unity" loading="lazy">
+                                    <p class="tools-title">Unity Engine</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="tools-item">
+                            <ul>
+                                <li>
+                                    <img src="./assets/images/unreal.png" name="logo-unreal" class="tools-item-icon" alt="Unreal Engine" loading="lazy">
+                                    <p class="tools-title">Unreal Engine</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="tools-item">
+                            <ul>
+                                <li>
+                                    <img src="./assets/images/gitlab.png" name="logo-gitlab" class="tools-item-icon" alt="Gitlab" loading="lazy">
+                                    <p class="tools-title">Gitlab</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="tools-item">
+                            <ul>
+                                <li>
+                                    <img src="./assets/images/cSharp.png" name="logo-cSharp" class="tools-item-icon" alt="cSharp" loading="lazy">
+                                    <p class="tools-title">C#</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="tools-item">
+                            <ul>
+                                <li>
+                                    <img src="./assets/images/c++.png" name="logo-c++" class="tools-item-icon" alt="C++" loading="lazy">
+                                    <p class="tools-title">C++</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="tools-item">
+                            <ul>
+                                <li>
+                                    <img src="./assets/images/jira.png" name="logo-Jira" class="tools-item-icon" alt="Jira" loading="lazy">
+                                    <p class="tools-title">Jira</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="tools-item">
+                            <ul>
+                                <li>
+                                    <img src="./assets/images/obs.png" name="logo-obs" class="tools-item-icon" alt="Open Broadcaster Software" loading="lazy">
+                                    <p class="tools-title">OBS</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="tools-item">
+                            <ul>
+                                <li>
+                                    <img src="./assets/images/slack.png" name="logo-slack" class="tools-item-icon" alt="Slack" loading="lazy">
+                                    <p class="tools-title">Slack</p>
+                                </li>
+                            </ul>
+                        </li>
+
+
+
+
+
+
+                    </ul>
+
+
+
+
+                </section>
+
+            </article>
+
+
+            <!--
+              - #CONTACT
+            -->
+
+            <article class="contact" data-page="contact">
+
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42361.28446498886!2d-123.40042176336082!3d48.42620174668918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f738bddb06171%3A0x38e8f3741ebb48ed!2sVictoria%2C%20BC!5e0!3m2!1sen!2sca!4v1722863895150!5m2!1sen!2sca"
+                                width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+
+                    <h3 class="h3 form-title">Send Me An Email</h3>
+
+                    <div class="content-card">
+                        <ul>
+                            <li class="contact-item">
+
+                                <div class="icon-box">
+                                    <ion-icon name="mail-outline"></ion-icon>
+                                </div>
+
+                                <div class="contact-info">
+                                    <p class="contact-title">Email</p>
+
+                                    <a href="mailto:aalydon.jobs@gmail.com" class="contact-link">aalydon.jobs(at)gmail.com</a>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+
+                </section>
+
+            </article>
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <!--
+      - custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+      - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
