@@ -521,6 +521,17 @@ main {
         margin-bottom: 15px;
     }
 
+.about-text-link {
+    text-align: justify;
+    text-justify: inter-word;
+    display: inline;
+    color: orange;
+    font-size: var(--fs-6);
+    font-weight: bold;
+    line-height: 1.6;
+        
+}
+
 
 
 /**
